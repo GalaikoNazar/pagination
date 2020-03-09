@@ -1,3 +1,4 @@
+  // model = [{title: 'some', image: 'some/image'},{title: 'some', image: 'some/image'},{title: 'some', image: 'some/image'}]
 module.exports.pagination = (model, pageNumber = 1, limitNumber = 4) => {
   const page = parseInt(pageNumber);
   const limit = parseInt(limitNumber);
